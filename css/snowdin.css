@@ -15,7 +15,7 @@ body {
 }
 
 .div {
-    margin: 1em;
+    margin: 0.5em;
 }
 
 .bouton_mode_nuit{
@@ -26,7 +26,6 @@ body {
     position: sticky;
     top: 7em;
     left: 100%;
-
 }  
 
 .dark-mode {

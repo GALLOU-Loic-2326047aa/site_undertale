@@ -45,6 +45,10 @@ nav > ul {
     justify-content: space-around;
 }
 
+.menu {
+    margin: 0.5em;
+}
+
 nav a {
     background-color: rgb(38, 35, 39);
     color: white;
