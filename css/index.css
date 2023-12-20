@@ -69,3 +69,7 @@ table {
 right: 10em;
 left: 30em;
 }
+@media screen and (min-width: 1248px) {
+    article {
+      padding: 1rem 3rem;
+    }

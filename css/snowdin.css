@@ -43,7 +43,6 @@ border-radius: 20px;
 }
 nav > ul {
     list-style-type: none;
-    border: solid green 1px;
     display: flex;
     justify-content: space-around;
 }
@@ -53,8 +52,8 @@ nav a {
     color: white;
     text-decoration: none;
     border: solid black 1px;
-    padding: 1em 16em;
-    border-radius: 30px;
+    padding: 3% 10em;
+    border-radius: 3em;
 }
 .map {
 width: 100%;
