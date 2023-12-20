@@ -43,10 +43,12 @@ nav > ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
 .menu {
-    margin: 0.5em;
+    margin: 1em;
 }
 
 nav a {
