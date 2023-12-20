@@ -8,8 +8,8 @@ body {
 
 @font-face {
     font-family:'monster_friend_foreregular';
-    src: url('font/monsterfriendfore-webfont.woff2') format('woff2'),
-         url('font/monsterfriendfore-webfont.woff') format('woff');
+    src: url('../css/Font Police d'écriture Undertale/monsterfriendfore-webfont.woff') format('woff2'),
+         url('../css/Font Police d'écriture Undertale/monsterfriendfore-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
