@@ -6,7 +6,10 @@
     font-style: normal;
 }
 
-
+img{
+    width: 18em;
+    height: 22em;
+}
 h1
 {
     font-family: 'monster_friend_foreregular';
@@ -21,6 +24,7 @@ body{
 
 
 .form{
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +80,7 @@ nav a {
   }
   
   a:hover {
-    color: white;
+    color: red;
   }
   
   a::before {
@@ -87,7 +91,7 @@ nav a {
     height: 2px;
     bottom: 0;
     left: 3%;
-    background-color: white;
+    background-color: red;
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
