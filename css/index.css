@@ -6,6 +6,11 @@ body {
     background: linear-gradient(to left top,#3c5e14, rgb(66, 58, 109));
 }
 
+
+html{
+    scroll-behavior: smooth;
+}
+
 .bouton_mode_nuit{
     background-color: black;
     border-color: rgb(0, 0, 0);
@@ -28,8 +33,8 @@ body {
 #myBtn {
   display: none; 
   position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
+  bottom: 2em; 
+  right: 3em; 
   z-index: 99; 
   border: none; 
   outline: none; 
@@ -101,3 +106,13 @@ left: 30em;
     width: 100%;
 }
 
+
+.cont_video {
+justify-content: center;
+display: flex;
+width: 100%;
+}
+
+.video {
+    width: 50%;
+}
