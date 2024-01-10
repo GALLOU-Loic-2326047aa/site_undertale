@@ -1,0 +1,98 @@
+@font-face {
+    font-family:'monster_friend_foreregular';
+    src: url('font/monsterfriendfore-webfont.woff2') format('woff2'),
+         url('font/monsterfriendfore-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1
+{
+    font-family: 'monster_friend_foreregular';
+    width: 12em;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form form{
+    border: 5px solid #333; /* Couleur et épaisseur de la bordure */
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1em;
+}
+
+nav {
+    width: 100%;
+position: sticky;
+top: 1em;
+
+}
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    background-color: rgb(38, 35, 39);
+    color: white;
+    text-decoration: none;
+    border: solid black 1px;
+    padding: 3% 10em;
+    border-radius: 10em;
+}
+
+.submit-button {
+    font-family: 'monster_friend_foreregular';
+    background-color: red; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 20px 20px; /* Espacement à l'intérieur du bouton */
+    border: none; /* Supprime la bordure par défaut du bouton */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de type main pour indiquer la possibilité de cliquer */
+    text-decoration: none;
+    color: white; /* Couleur du texte */
+  }
+
+  a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 94%;
+    height: 2px;
+    bottom: 0;
+    left: 3%;
+    background-color: white;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  }
+  
