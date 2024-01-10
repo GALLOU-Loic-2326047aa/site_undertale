@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="#section1" title="hello">section</a>
+            </li>
+            <li>
+                <a href="https://undertale.com/">Site officiel</a>
+            </li>
+            <li>
+                <a href="https://valanor1304.github.io/Site_web/">Accueil</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="form">
+      <a href="https://en.wikipedia.org/wiki/Sans_(Undertale)" target="_blank">
+        <img src="Sans.png" alt="Sans" usemap="#Sanswiki">
+       </a>
+        <form action="mailto:ezio.auditore@html.fr">
+        <h1>Donner votre avis</h1>
+        <ul>
+          <li>
+            <label for="prename">Nom  :</label>
+            <input type="text" id="prename" name="user_name" />
+          </li>
+          <li>
+            <label for="name">Prénom :</label>
+            <input type="text" id="name" name="name" size="17">
+          </li>
+          <li>
+            <label for="mail">E-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Message&nbsp;:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+       
+        <fieldset>
+          <legend>Selectioner un genre:</legend>
+        
+          <div>
+            <input type="radio" id="Homme" name="drone" value="Homme" checked />
+            <label for="Homme">Homme</label>
+          </div>
+        
+          <div>
+            <input type="radio" id="Femme" name="drone" value="Femme" />
+            <label for="Femme">Femme</label>
+          </div>
+        
+        </fieldset>
+        <button type="submit" class="submit-button">envoyer</button>
+      </form>
+      </div>
+</body>
+</html>
