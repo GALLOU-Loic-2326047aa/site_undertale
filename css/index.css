@@ -34,7 +34,7 @@ html{
   display: none; 
   position: fixed; 
   bottom: 2em; 
-  right: 3em; 
+  right: 2em; 
   z-index: 99; 
   border: none; 
   outline: none; 
@@ -107,7 +107,8 @@ left: 30em;
 }
 
 .titre_video {
-    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 .cont_video {
