@@ -50,6 +50,8 @@ nav > ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1em;
 }
 
 nav a {
