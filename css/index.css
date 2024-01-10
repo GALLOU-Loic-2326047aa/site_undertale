@@ -106,6 +106,9 @@ left: 30em;
     width: 100%;
 }
 
+.titre_video {
+    text-align: center;
+}
 
 .cont_video {
 justify-content: center;
