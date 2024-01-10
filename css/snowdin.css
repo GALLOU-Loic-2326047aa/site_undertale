@@ -6,6 +6,10 @@ body {
     background: linear-gradient(to left top,#2493af, rgb(34, 131, 196));
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family:'monster_friend_foreregular';
     src: url('font/monsterfriendfore-webfont.woff2') format('woff2'),
