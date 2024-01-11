@@ -135,8 +135,9 @@ align-items: center;
 }
 
 
-.text1 {
-    text-align: center;
+.txt1 {
+    text-align: left;
+    width: 50%;
 }
 
 table {
