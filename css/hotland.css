@@ -131,7 +131,7 @@ left: 30em;
     width: 100%;
 }
 
-@media (max-width:920px)  { 
+@media (max-width:1080px)  { 
 
     body {
         color: white;
