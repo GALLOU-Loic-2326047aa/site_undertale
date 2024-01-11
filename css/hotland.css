@@ -90,11 +90,15 @@ nav a {
 }
 
 .conteneur1 {
+    display: flex;
     justify-content: space-between;
+    
 }
 
 .conteneur2 {
     justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .conteneur3 {
@@ -115,6 +119,21 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+.hotland2 {
+    width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hotland3 {
+    width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 
 .text1 {
     text-align: center;
