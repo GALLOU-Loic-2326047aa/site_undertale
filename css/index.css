@@ -120,3 +120,12 @@ width: 100%;
 .video {
     width: 50%;
 }
+
+
+@media (max-width:1080px)  { 
+
+    .video {
+        width: 100%;
+    }
+
+}
