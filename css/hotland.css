@@ -88,6 +88,20 @@ nav a {
     padding: 0.3em 2em;
     border-radius: 3em;
 }
+
+.conteneur1 {
+    justify-content: space-between;
+}
+
+.conteneur2 {
+    justify-content: space-between;
+}
+
+.conteneur3 {
+    justify-content: space-between;
+}
+
+
 .map {
 width: 100%;
 display: flex;
@@ -95,7 +109,14 @@ justify-content: center;
 align-items: center;
 }
 
-.text {
+.hotland1 {
+    width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.text1 {
     text-align: center;
 }
 
@@ -110,3 +131,14 @@ left: 30em;
     width: 100%;
 }
 
+@media (max-width:320px)  { 
+
+    body {
+        color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background: linear-gradient(to left top,#8c00ff, rgb(255, 255, 255));
+    }
+
+}
