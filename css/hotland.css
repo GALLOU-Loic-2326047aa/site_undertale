@@ -124,7 +124,7 @@ align-items: center;
 
 .hotland2 {
     width: 50%;
-    height: 150%;
+    height: 100%;
 
 display: flex;
 justify-content: center;
@@ -133,6 +133,8 @@ align-items: center;
 
 .hotland3 {
     width: 50%;
+    height: 100%;
+
 display: flex;
 justify-content: center;
 align-items: center;
