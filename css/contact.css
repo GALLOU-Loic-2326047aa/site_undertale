@@ -111,15 +111,3 @@ nav a {
   a:hover::before {
     transform: scaleX(1);
   }
-
-.carre {
-    width: 15px;
-    height: 15px;
-    background-color: black;
-    display: block;
-    text-align: center;
-    line-height: 45px;
-    text-decoration: none; /* supprimer le soulignement du lien */
-    color: #fff; /* couleur du texte */
-    margin-top: -50px;
-}
