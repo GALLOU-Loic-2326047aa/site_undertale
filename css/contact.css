@@ -26,7 +26,7 @@ body{
     font-family:'monster_friend_foreregular';
     background-color: black;
     color: white;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 .titre {
@@ -44,7 +44,7 @@ body{
 }
 
 .form form{
-    border: 5px solid #333; /* Couleur et épaisseur de la bordure */
+    border: 0.4em solid #333; /* Couleur et épaisseur de la bordure */
     display: flex;
     flex-direction: column;
 }
