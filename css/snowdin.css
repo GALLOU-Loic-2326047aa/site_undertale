@@ -228,3 +228,31 @@ left: 30em;
     }
 
 }
+
+a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 94%;
+  height: 2px;
+  bottom: 0;
+  left: 3%;
+  background-color: red;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}
+
