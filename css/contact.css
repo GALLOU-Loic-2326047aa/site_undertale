@@ -20,6 +20,12 @@ h1
 body{
     background-color: black;
     color: white;
+    
+}
+
+.titre {
+    justify-content: center;
+    display: flex;
 }
 
 
