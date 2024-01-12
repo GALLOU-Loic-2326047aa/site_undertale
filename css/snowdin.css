@@ -72,9 +72,8 @@ nav {
 position: sticky;
 top: 2em;
 border-radius: 1em;
-
-
 }
+
 nav > ul {
     list-style-type: none;
     display: flex;
