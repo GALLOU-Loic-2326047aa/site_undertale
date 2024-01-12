@@ -92,7 +92,7 @@ nav a {
     border-radius: 3em;
 }
 
-.conteneur1 {
+.conteneur {
     display: flex;
     justify-content: space-between;
     
@@ -104,9 +104,6 @@ nav a {
     flex-direction: row-reverse;
 }
 
-.conteneur3 {
-    justify-content: space-between;
-}
 
 
 .map {
@@ -118,6 +115,8 @@ align-items: center;
 
 .hotland1 {
     width: 50%;
+    height: 100%;
+
 display: flex;
 justify-content: center;
 align-items: center;
@@ -125,6 +124,8 @@ align-items: center;
 
 .hotland2 {
     width: 50%;
+    height: 150%;
+
 display: flex;
 justify-content: center;
 align-items: center;
@@ -171,22 +172,15 @@ a {
     text-decoration: none;
 }
 
-    a:hover {
-        color: white;
-    }
+nav a {
+    background-color: rgb(38, 35, 39);
+    color: white;
+    text-decoration: none;
+    border: solid black 1px;
+    padding: 0.3em 2em;
+    border-radius: 3em;
 
-    a::before {
-        content: "";
-        position: absolute;
-        display: block;
-        width: 94%;
-        height: 2px;
-        bottom: 0;
-        left: 3%;
-        background-color: white;
-        transform: scaleX(0);
-        transition: transform 0.3s ease;
-    }
+    
 
     a:hover::before {
         transform: scaleX(1);

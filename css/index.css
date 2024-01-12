@@ -224,11 +224,7 @@ width: 100%;
         color : red;
     }
     
-    table {
-        border: solid;
-    right: 10em;
-    left: 30em;
-    }
+
     
     .snowdin {
         height: 100%;
@@ -263,3 +259,4 @@ a {
     a:hover::before {
         transform: scaleX(1);
     }
+}

@@ -111,3 +111,104 @@ nav a {
   a:hover::before {
     transform: scaleX(1);
   }
+  @media (max-width:1080px)  { 
+
+    
+
+   
+    
+    .div {
+        margin: 0.5em;
+    }
+    
+    .bouton_mode_nuit{
+        background-color: black;
+        border-color: rgb(0, 0, 0);
+        color: #767dbe;
+        border-radius: 20px;
+        position: sticky;
+        top: 7em;
+        left: 100%;
+    }  
+    
+
+      
+
+    
+
+    }
+    
+    nav {
+        width: 100%;
+    position: sticky;
+    top: 2em;
+    
+    
+    }
+    nav > ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 1em;
+    }
+    
+    nav a {
+        background-color: rgb(38, 35, 39);
+        color: white;
+        text-decoration: none;
+        border: solid black 1px;
+        padding: 0.3em 2em;
+        border-radius: 3em;
+    }
+    .map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .text {
+        text-align: center;
+    }
+    
+    table {
+        border: solid;
+    right: 10em;
+    left: 30em;
+    }
+    
+    .snowdin {
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 94%;
+  height: 2px;
+  bottom: 0;
+  left: 3%;
+  background-color: red;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}
+}
