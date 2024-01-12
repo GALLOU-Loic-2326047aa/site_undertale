@@ -66,12 +66,12 @@ h1 {
 }
 
 nav {
-    width: 100%;
+    width: 100%;    
 position: sticky;
 top: 2em;
-
-
+border-radius: 1em;
 }
+
 nav > ul {
     list-style-type: none;
     display: flex;
@@ -85,7 +85,7 @@ nav a {
     color: white;
     text-decoration: none;
     border: solid black 1px;
-    padding: 0.3em 2em;
+    padding: 3% 5em;
     border-radius: 3em;
 }
 

@@ -1,14 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family:'monster_friend_foreregular';
+    src: url('font/monsterfriendfore-webfont.woff2') format('woff2'),
+         url('font/monsterfriendfore-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     color: rgb(0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
     background: linear-gradient(to left top,#3c5e14, rgb(66, 58, 109));
-}
-
-
-html{
-    scroll-behavior: smooth;
 }
 
 .bouton_mode_nuit{
