@@ -81,9 +81,9 @@ nav a {
     font-family: 'monster_friend_foreregular';
     background-color: red; /* Couleur de fond */
     color: white; /* Couleur du texte */
-    padding: 20px 20px; /* Espacement à l'intérieur du bouton */
+    padding: 1em 1em; /* Espacement à l'intérieur du bouton */
     border: none; /* Supprime la bordure par défaut du bouton */
-    border-radius: 5px; /* Coins arrondis */
+    border-radius: 5em; /* Coins arrondis */
     cursor: pointer; /* Curseur de type main pour indiquer la possibilité de cliquer */
     text-decoration: none;
     color: white; /* Couleur du texte */
@@ -104,7 +104,7 @@ nav a {
     position: absolute;
     display: block;
     width: 94%;
-    height: 2px;
+    height: 70%;
     bottom: 0;
     left: 3%;
     background-color: red;
