@@ -95,6 +95,8 @@ nav a {
 .conteneur {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -102,6 +104,8 @@ nav a {
     justify-content: space-between;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -144,6 +148,7 @@ align-items: center;
 .txt1 {
     text-align: left;
     width: 50%;
+    text-align: justify;
 }
 
 table {
