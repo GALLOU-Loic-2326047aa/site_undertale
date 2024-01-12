@@ -8,7 +8,6 @@
 
 
 body {
-    font-family: 'monster_friend_foreregular';
     color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +60,7 @@ html{
 }
 
 h1 {
-    
+    font-family: 'monster_friend_foreregular';
     font-size: 3em;
     border: 1em;
     text-align: center;
@@ -73,6 +72,8 @@ nav {
 position: sticky;
 top: 2em;
 border-radius: 1em;
+font-family: 'monster_friend_foreregular';
+
 
 }
 nav > ul {
