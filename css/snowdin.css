@@ -1,5 +1,4 @@
 body {
-    font-family: 'monster_friend_foreregular';
     color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,6 +67,7 @@ h1 {
 }
 
 nav {
+    font-family: 'monster_friend_foreregular';
     width: 100%;    
 position: sticky;
 top: 2em;
