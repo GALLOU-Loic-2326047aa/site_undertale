@@ -157,32 +157,15 @@ left: 30em;
 
 @media (max-width:1080px)  { 
 
-    body {
+
+
+    nav a {
+        background-color: rgb(38, 35, 39);
         color: white;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: auto;
+        text-decoration: none;
+        border: solid black 1px;
+        padding: 0.3em 2em;
+        border-radius: 3em;
     }
-
 }
-
-a {
-    position: relative;
-    color: #000;
-    text-decoration: none;
-}
-
-nav a {
-    background-color: rgb(38, 35, 39);
-    color: white;
-    text-decoration: none;
-    border: solid black 1px;
-    padding: 0.3em 2em;
-    border-radius: 3em;
-
-    
-
-    a:hover::before {
-        transform: scaleX(1);
-    }
 
