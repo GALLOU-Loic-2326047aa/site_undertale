@@ -116,7 +116,7 @@ nav a {
     position: absolute;
     display: block;
     width: 94%;
-    height: 10%;
+    height: 5px;
     left: 3%;
     bottom: 3%;
     background-color: red;
