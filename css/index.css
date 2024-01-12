@@ -1,21 +1,24 @@
-html{
-    scroll-behavior: smooth;
-}
-
 @font-face {
-    font-family:'monster_friend_foreregular';
-    src: url('font/monsterfriendfore-webfont.woff2') format('woff2'),
-         url('font/monsterfriendfore-webfont.woff') format('woff');
+    font-family: 'monster_friend_foreregular';
+    src: url('font/monsterfriendfore-webfont.woff2') format('woff2'), url('font/monsterfriendfore-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+
+
 body {
+    font-family: 'monster_friend_foreregular';
     color: rgb(0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
     background: linear-gradient(to left top,#3c5e14, rgb(66, 58, 109));
+}
+
+
+html{
+    scroll-behavior: smooth;
 }
 
 .bouton_mode_nuit{
@@ -58,10 +61,11 @@ body {
 }
 
 h1 {
+    
+    font-size: 3em;
     border: 1em;
     text-align: center;
-    color: red;
-
+    color: white;
 }
 
 nav {
@@ -216,6 +220,7 @@ width: 100%;
     
     .text {
         text-align: center;
+        color : red;
     }
     
     table {
@@ -230,3 +235,30 @@ width: 100%;
     }
 
 }
+
+a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: red;
+    }
+
+    a::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 94%;
+        height: 2px;
+        bottom: 0;
+        left: 3%;
+        background-color: red;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+    }
+
+    a:hover::before {
+        transform: scaleX(1);
+    }
